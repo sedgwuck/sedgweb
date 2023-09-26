@@ -1,0 +1,52 @@
+/* Project Card Styles */
+.project-card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Project Image Styles */
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Project Info Styles */
+.project-info {
+    text-align: center;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #0056b3;
+}

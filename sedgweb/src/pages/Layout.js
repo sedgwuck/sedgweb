@@ -8,16 +8,16 @@ function Layout() {
             <nav className="navigation">
                 <ul className="container">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" className="link-style">Home</Link>
                     </li>
                     <li>
-                        <Link to="/blogs">Blogs</Link>
+                        <Link to="/blogs" className="link-style">Blogs</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact" className="link-style">Contact</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about" className="link-style">About</Link>
                     </li>
                 </ul>
             </nav>

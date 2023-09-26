@@ -1,25 +1,57 @@
+/* Navigation Bar */
 .navigation {
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
-    position: relative;
-    padding: 0.5rem 0rem;
     background-color: #fff;
     color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 2px rgba(44, 44, 44, 0.23);
 }
 
+/* Navigation Menu */
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-items: end;
-    gap: 30px;
+    flex-grow: 1;
+    justify-content: space-evenly;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-div {
+/* Navigation Items */
+.container>div {
     font-size: medium;
-    padding: 30px 30px 30px 30px;
+    padding: 0 20px;
+    /* Adjust horizontal padding to your preference */
+}
+
+/* Navigation Links */
+.link-style {
+    display: block;
+    padding: 10px 20px;
+    /* Adjust padding to your preference */
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    text-decoration: none;
+    /* Remove underlines */
+    border: none;
+    /* Remove button border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Show pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    /* Add a smooth transition */
+}
+
+/* Navigation Link Hover Effect */
+.link-style:hover {
+    background-color: #0056b3;
+    /* Button background color on hover */
+    transform: scale(1.05);
+    /* Scale the button on hover (you can adjust the scale factor) */
 }
